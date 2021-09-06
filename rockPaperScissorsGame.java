@@ -28,30 +28,30 @@ public class rockPaperScissorsGame {
                         System.out.println("My choice was rock too. It's a draw.");
                     } else if (compChoice == 2) {
                         System.out.println("My choice was paper. I won!");
-                        compScore += 1;
+                        compScore++;
                     } else {
                         System.out.println("My choice was scissors. You won...");
-                        userScore += 1;
+                        userScore++;
                     }
                     break;
                 case "paper":
                     if (compChoice == 1) {
                         System.out.println("My choice was rock. You won...");
-                        userScore += 1;
+                        userScore++;
                     } else if (compChoice == 2) {
                         System.out.println("My choice was paper too. It's a draw.");
                     } else {
                         System.out.println("My choice was scissors. I won!");
-                        compScore += 1;
+                        compScore++;
                     }
                     break;
                 case "scissors":
                     if (compChoice == 1) {
                         System.out.println("My choice was rock. I won!");
-                        compScore += 1;
+                        compScore++;
                     } else if (compChoice == 2) {
                         System.out.println("My choice was paper. You won...");
-                        userScore += 1;
+                        userScore++;
                     } else {
                         System.out.println("My choice was scissors too. It's a draw.");
                     }
@@ -69,6 +69,5 @@ public class rockPaperScissorsGame {
         } else {
             System.out.println("You won...");
         }
-
     }
 }
